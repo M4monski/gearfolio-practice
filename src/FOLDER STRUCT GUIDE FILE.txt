@@ -10,10 +10,10 @@ my-nextjs-app/
 │   │   ├── (routes)/       # Grouped routes for logical organization
 │   │   │   ├── dashboard/  # Dashboard-specific routes
 │   │   │   │   ├── page.js     # Dashboard main page component
-│   │   │   │   └── layout.js   # Dashboard-specific layout
+│   │   │   │   └── layout.js   # Dashboard-specific layout   !!!THIS IS NOT NECESSARY UNLESS NAA JUD KAY SARILI NA LAYOUT
 │   │   │   ├── profile/    # Profile-related routes
 │   │   │   │   ├── page.js     # Profile page component
-│   │   │   │   └── layout.js   # Profile page layout
+│   │   │   │   └── layout.js   # Profile page layout       !!!THIS IS NOT NECESSARY UNLESS NAA JUD KAY SARILI NA LAYOUT
 │   │   │   └── page.js     # Root/home page
 │   │   │
 │   │   ├── api/            # API route handlers
@@ -22,7 +22,7 @@ my-nextjs-app/
 │   │   │   └── users/      # User-related API endpoints
 │   │   │       └── route.js
 │   │   │
-│   │   └── layout.js       # Root application layout
+│   │   └── layout.js       # Root application layout       !!!THIS LAYOUT FILE IS ENOUGH FOR MOST CASES KAY I LAYOUT NIYA TANAN NGA NAA SA (routes)/ na folder
 │   │
 │   ├── components/         # Reusable React components
 │   │   ├── common/         # Basic, generic UI components
